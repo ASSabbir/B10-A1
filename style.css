@@ -31,7 +31,7 @@
     
 }
 header{
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('./assets/Hero-bg.png');
     height: 700px;
     background-position: center;
     display: flex;
@@ -104,7 +104,7 @@ header{
 .support-section{
     width: 1200px;   
     height: 400px;
-    background: rgb(0,0,0,0.5) url('/assets//handshake.jpg');
+    background: rgb(0,0,0,0.5) url('../assets//handshake.jpg');
     margin: auto;
     background-blend-mode: darken;
     background-position: center;
