@@ -1,3 +1,4 @@
+
 .font-azeret {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -68,6 +69,7 @@ header{
     width: 1000px;
     text-align: center;
     margin-bottom: 50px;
+    line-height: 26px;
 }
 .development-section{
     width: 1200px;
@@ -98,4 +100,17 @@ header{
     margin-bottom: 30px;
     width: 1000px;
 
+}
+.support-section{
+    width: 1200px;
+    
+    height: 400px;
+    background: rgb(0,0,0,0.5) url('/assets//handshake.jpg');
+    margin: auto;
+    background-blend-mode: darken;
+    background-position: center;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
 }
